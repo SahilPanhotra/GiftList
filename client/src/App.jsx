@@ -8,7 +8,7 @@ import nicelist from "./utils/niceList.json";
 import { Buffer } from "buffer";
 window.Buffer = window.Buffer || Buffer;
 
-const serverUrl = "http://localhost:1225";
+const serverUrl = "https://giftlist-sahilpanhotra.b4a.run:1225";
 
 function App() {
   const [name, setName] = useState("");
