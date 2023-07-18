@@ -67,4 +67,4 @@ class MerkleTree {
   }
 }
 
-module.exports = MerkleTree;
+export default MerkleTree;

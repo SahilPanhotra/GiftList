@@ -3,7 +3,7 @@ import NavBar from "./components/NavBar";
 import axios from "axios";
 import { useState } from "react";
 import { toast } from "react-toastify";
-import { MerkleTree } from "./utils/MerkleTree";
+import  MerkleTree  from "./utils/MerkleTree";
 import nicelist from "./utils/niceList.json";
 import { Buffer } from "buffer";
 window.Buffer = window.Buffer || Buffer;
