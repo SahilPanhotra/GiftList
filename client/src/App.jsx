@@ -8,7 +8,7 @@ import nicelist from "./utils/niceList.json";
 import { Buffer } from "buffer";
 window.Buffer = window.Buffer || Buffer;
 
-const serverUrl = "https://giftlist-sahilpanhotra.b4a.run:1225";
+const serverUrl = "https://giftlist-sahilpanhotra.b4a.run";
 
 function App() {
   const [name, setName] = useState("");
@@ -34,6 +34,7 @@ function App() {
         position: toast.POSITION.TOP_CENTER,
       });
     } catch (error) {
+      console.log(error);
       toast.error(error.response.data, {
         position: toast.POSITION.TOP_CENTER,
       });
